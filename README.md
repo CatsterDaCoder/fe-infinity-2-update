@@ -26,9 +26,15 @@ A pure windows version (not using WSL). Don't hold your breath for this, though.
 As much as i would love to provide a clean fe8 rom, I cannot. I'm sure that you can easily find tools on reddit or the internet archive that help you dump the rom off of your Fe8 cartridge that you totally have.
 
 Commands to save somewhere in a text file for ease of use:
+
 cd ~
+
 git clone https://github.com/i-am-neon/fe-infinity.git
+
 cd fe-infinity
+
 git apply fe-infinity-webui-and-prompt-editor.patch
+
 cd server
+
 deno task webui 
