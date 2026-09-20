@@ -8,20 +8,21 @@ When creating maps in FEmapCreator, please only use fe8 tilesets for now.
 Please clone FE Infinity, don't just directly download it as a zip off of github.
 
 Known bugs: 
-Certain tilesets sometimes shit themselves and die when used. Don't know why this happens.
-Tileset/map importing is finicky at best. working on that now.
-FEBuilderGBA does NOT like generated chapters and characters. difficult to read and edit data.
-rarely ever generated recruits as enemies to be recruited. Truly have no idea why this happens.
-Ai puts player starting positions inside of impassable terrain. Fixable in FEBuilder.
-Chapter sometimes ends after random but highly specific actions (X unit attacks boss, X unit talks to Y unit, ect). Also don't know why this happens.
+1. Certain tilesets sometimes shit themselves and die when used. Don't know why this happens.
+2. Tileset/map importing is finicky at best. working on that now.
+3. FEBuilderGBA does NOT like generated chapters and characters. difficult to read and edit data.
+4. rarely ever generated recruits as enemies to be recruited. Truly have no idea why this happens.
+5. Ai puts player starting positions inside of impassable terrain. Fixable in FEBuilder.
+6. Chapter sometimes ends after random but highly specific actions (X unit attacks boss, X unit talks to Y unit, ect). Also don't know why this happens.
 Any bug that occurs during generation is usually at fault of the model you're using. 4o is the most tested and most reliable. 
 
 Whats being worked on:
-Importing portraits
-Bug fixes
-Importing music
-Creating reinforcements and more complex map objectives
-A pure windows version (not using WSL). Don't hold your breath for this, though.
+1. Importing portraits
+2. Bug fixes
+3. Importing music
+4. Creating reinforcements and more complex map objectives
+5. Creation of hacks longer than 10 chapters. Promoted enemies, bosses and prepromoted player units
+6. A pure windows version (not using WSL). Don't hold your breath for this, though.
 
 As much as i would love to provide a clean fe8 rom, I cannot. I'm sure that you can easily find tools on reddit or the internet archive that help you dump the rom off of your Fe8 cartridge that you totally have.
 
@@ -38,3 +39,4 @@ git apply fe-infinity-webui-and-prompt-editor.patch
 cd server
 
 deno task webui 
+
